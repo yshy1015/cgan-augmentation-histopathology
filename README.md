@@ -98,7 +98,7 @@ Synthetic-to-real ratio ablation conducted under the most challenging low-resour
 
 3. **Traditional augmentation degrades at high data volumes**, suggesting that simple geometric transforms introduce noise when training data is already sufficient.
 
-4. **The ablation study reveals a consistent positive trend** with increasing synthetic-to-real ratio, suggesting that a higher ratio of synthetic data may further close the performance gap. Future work should explore ratios beyond 20%.
+4. **The ablation study reveals a monotonic positive trend** within the tested range (5%–20%), without reaching a clear optimum. This suggests the upper bound of beneficial synthetic ratio was not yet reached, and future work should extend this range (e.g., 50%, 100%, or beyond) to identify the point of diminishing or negative returns.
 
 5. **BACK and ADI classes are consistently well-classified** across all settings, while STR remains the most challenging class due to visual similarity with DEB and MUS.
 
